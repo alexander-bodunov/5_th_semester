@@ -1,0 +1,70 @@
+
+function summOfErrors(i1){
+		var chisl=1
+		var znam=1
+		for(j=8-i1;j<8;j++)
+			chisl=chisl*j
+		for (k=1;k<i1+1;k++)
+			znam=znam*k
+		return(chisl/znam)
+}
+
+function chetOrNechet(Pos){
+     var Sum=0
+		for (i in Pos)
+			Sum=(Sum+hemmingSignal[i])%2
+		return Sum	
+}
+
+function createHemmingSignal(){
+      var j=0
+		for (i in [7,6,5,3]){
+		   console.log(i)
+			hemmingSignal[i]=Signal[j]
+			j++
+		}
+		hemmingSignal[1]=chetOrNechet([7,5,3])
+		hemmingSignal[2]=chetOrNechet([7,6,3])
+		hemmingSignal[4]=chetOrNechet([7,6,5])
+}
+
+
+
+
+/*function createHemmingSignal1(){
+      var j=0
+      var arrOfIndex=[7,6,5,3]
+		for (i of arrOfIndex){
+			mySignal[arrOfIndex[i]]=Signal[j]
+			j++
+		}
+		mySignal[1]=chetOrNechet([7,5,3])
+		mySignal[2]=chetOrNechet([7,6,3])
+		mySignal[4]=chetOrNechet([7,6,5])
+}
+*/
+
+
+
+
+
+
+var Signal=[1,1,1,0]
+//var mySignal=['m',0,0,0,1,1,1,1]
+var hemmingSignal=['m']
+
+
+
+
+createHemmingSignal()
+hemmingSignal
+
+
+
+
+createHemmingSignal1()
+mySignal
+
+
+
+//summOfErrors(5)

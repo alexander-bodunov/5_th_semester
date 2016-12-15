@@ -1,0 +1,107 @@
+
+function summOfErrors(i1){
+		var chisl=1
+		var znam=1
+		for(j=8-i1;j<8;j++)
+			chills=chisl*j
+		for (k=1;k<i1+1;k++)
+			znam=znam*k
+		return(chisl/znam)
+}
+
+function chetOrNechet(Pos){
+     var Sum=0
+		for (i in Pos){
+			Sum=Sum+hemmingSignal[Pos[i]]
+			console.log('hemmingSignal= ',hemmingSignal[Pos[i]],i)
+			}
+		return (Sum%2)
+}
+
+function createHemmingSignal(){
+      var j=0
+      var arrOfIndex=[7,6,5,3]
+		for (i in arrOfIndex){
+			hemmingSignal[arrOfIndex[i]]=Signal[j]
+			j++
+		}
+		hemmingSignal[1]=chetOrNechet([7,5,3])
+		hemmingSignal[2]=chetOrNechet([7,6,3])
+		hemmingSignal[4]=chetOrNechet([7,6,5])
+}
+
+
+function errorsDetecting(){
+      var EofErr=[]
+		var indexes =[[1,3,5,7],[2,3,6,7],[4,5,6,7]]
+		var IsError=false;
+		for (i=0;i<3;i++){
+				EofErr.push(chetOrNechet(indexes))
+				console.log('s',EofErr[EofErr.length-1])
+				//IsError=((EofErr[EofErr.length-1]) | (IsError))
+				if(EofErr[EofErr.length]) IsError=true
+		}
+				//console.log(chetOrNechet(indexes))
+			//EofErr.push(chetOrNechet(indexes))
+		if (IsError)
+		    console.log('ошибка, вектор ошибки:',EofErr)
+		else
+		    console.log('Нет ошибки')
+}
+
+
+function Check_errors(){
+var hemmingSignalCopy=[]
+for (i=1;i<8;i++){
+	hemmingSignalCopy.push(hemmingSignal[i])
+}
+for (j=1;j<8;j++){
+    hemmingSignal[j]= inv(hemmingSignal[j])
+    errorsDetecting()
+    hemmingSignal[j]= inv(hemmingSignal[j])
+}
+}
+
+function inv(a){
+ if (a==true)return false
+ else return true
+}
+
+
+
+
+var Signal=[1,1,1,0]
+//var mySignal=['m',0,0,0,1,1,1,1]
+var hemmingSignal=['m']
+var EofErr=[]
+
+
+
+
+createHemmingSignal()
+hemmingSignal
+errorsDetecting()
+console.log('hem =',hemmingSignal)
+
+Check_errors()
+
+
+
+//createHemmingSignal1()
+//mySignal
+
+
+
+//summOfErrors(5)
+/*function createHemmingSignal1(){
+      var j=0
+      var arrOfIndex=[7,6,5,3]
+		for (i of arrOfIndex){
+			mySignal[arrOfIndex[i]]=Signal[j]
+			j++
+		}
+		mySignal[1]=chetOrNechet([7,5,3])
+		mySignal[2]=chetOrNechet([7,6,3])
+		mySignal[4]=chetOrNechet([7,6,5])
+}
+*/

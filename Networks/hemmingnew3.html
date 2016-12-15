@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<body onload="">
+<head>
+<meta charset="utf-8" />
+<title></title>
+</head>
+<body>
+<script type="text/javascript" src="point.js"></script>
+<script type="text/javascript">
+
+
+
+var numberOfAllErrors=[7,21,35,35,21,7,1]
+
+
+ 
+function chetOrNechet(Pos){
+     var Sum=0
+		for (i in Pos){
+			Sum=Sum+hemmingSignal[Pos[i]]
+
+			}
+		return (Sum%2)
+}
+
+function createHemmingSignal(){
+      var j=0
+      var arrOfIndex=[7,6,5,3]
+		for (i in arrOfIndex){
+			hemmingSignal[arrOfIndex[i]]=Signal[j]
+			j++
+		}
+		hemmingSignal[1]=chetOrNechet([7,5,3])
+		hemmingSignal[2]=chetOrNechet([7,6,3])
+		hemmingSignal[4]=chetOrNechet([7,6,5])
+}
+
+
+function errorsDetecting(){
+      var EofErr=[]
+		var indexes =[[1,3,5,7],[2,3,6,7],[4,5,6,7]]
+		var IsError=false;  
+				     EofErr[0]=chetOrNechet([1,3,5,7])
+				     if(EofErr[0]) IsError=true
+				     EofErr[1]=chetOrNechet([2,3,6,7])
+				     if(EofErr[1]) IsError=true
+				     EofErr[2]=chetOrNechet([4,5,6,7])
+				     if(EofErr[2]) IsError=true
+		if (IsError){
+		    console.log('ошибка, вектор ошибки:',EofErr)
+		    return true
+		    }
+		    console.log('Нет ошибки')
+		    return false
+		    
+}
+
+var numberOfDetectedErrs=[]
+function Check_errors(){
+var hemmingSignalCopy=[]
+
+
+for (i=0;i<7;i++)
+      numberOfDetectedErrs[i]=0
+
+var buf=[]
+	    
+
+for (i1=1;i1<8;i1++){
+    hemmingSignal[i1]= inv(hemmingSignal[i1])
+    //console.log('Мы сделали ошибку в ',j,'-м разряде, проверяем:')
+    if (errorsDetecting()){numberOfDetectedErrs[0]++}
+    
+    for(i2=i1+1;i2<8;i2++){    
+         hemmingSignal[i1]= inv(hemmingSignal[i1])
+         if (errorsDetecting()){numberOfDetectedErrs[1]++}
+			for(i3=i2+1;i3<8;i3++){ 
+			      hemmingSignal[i3]= inv(hemmingSignal[i3])
+               if (errorsDetecting()){numberOfDetectedErrs[2]++}
+					for(i4=i3+1;i4<8;i4++){ 
+							hemmingSignal[i4]= inv(hemmingSignal[i4])
+                     if (errorsDetecting()){numberOfDetectedErrs[3]++}
+							for(i5=i4+1;i5<8;i5++){
+							      hemmingSignal[i5]= inv(hemmingSignal[i5])
+                           if (errorsDetecting()){numberOfDetectedErrs[4]++}
+									for(i6=i5+1;i6<8;i6++){
+											hemmingSignal[i6]= inv(hemmingSignal[i6])
+                     				if (errorsDetecting()){numberOfDetectedErrs[5]++} 									
+											for(i7=i6+1;i7<8;i7++){
+													hemmingSignal[i6]= inv(hemmingSignal[i6])
+                     				      if (errorsDetecting()){numberOfDetectedErrs[6]++}
+                     				      hemmingSignal[i7]= inv(hemmingSignal[i7])
+											} 
+											hemmingSignal[i6]= inv(hemmingSignal[i6])
+											}
+											hemmingSignal[i5]= inv(hemmingSignal[i5])
+											}
+											hemmingSignal[i4]= inv(hemmingSignal[i4])
+											}
+											hemmingSignal[i3]= inv(hemmingSignal[i3])
+											}
+											hemmingSignal[i2]= inv(hemmingSignal[i2])
+											}
+											hemmingSignal[i1]= inv(hemmingSignal[i1])
+											
+    //ourTable.push({detectedErrs:numberOfDetectedErrs})
+
+
+//ourTable.push({detectedErrs:numberOfDetectedErrs})
+}
+console.log('Сколько ошибок обнаружено: ',numberOfDetectedErrs)
+
+}
+
+
+function inv(a){
+ if (a==true)return false
+ else return true
+}
+
+
+
+
+var Signal=[1,1,1,0]
+//var mySignal=['m',0,0,0,1,1,1,1]
+var hemmingSignal=['m']
+var EofErr=[]
+
+var ourTable=[]
+
+
+
+
+createHemmingSignal()
+hemmingSignal
+errorsDetecting()
+//console.log('hem =',hemmingSignal)
+
+Check_errors()
+
+for (i=0;i<7;i++)
+	console.log('Всего ошибок',i+1,'-й кратности: ',numberOfAllErrors[i],';Обнаружено: ',numberOfDetectedErrs[i],';%: ',numberOfDetectedErrs[i]/numberOfAllErrors[i]*100)
+
+ </script>
+ <script>
+alert('Конец игры!') 
+ </script>
+</body>
+</html>

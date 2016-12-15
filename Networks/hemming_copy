@@ -1,0 +1,71 @@
+
+function summOfErrors(i1){
+		var chisl=1
+		var znam=1
+		for(j=8-i1;j<8;j++)
+			chills=chisl*j
+		for (k=1;k<i1+1;k++)
+			znam=znam*k
+		return(chisl/znam)
+}
+
+function chetOrNechet(Pos){
+     var Sum=0
+		for (i in Pos)
+			Sum=(Sum+hemmingSignal[Pos[i]])%2
+		return Sum	
+}
+
+function createHemmingSignal(){
+      var j=0
+      var arrOfIndex=[7,6,5,3]
+		for (i in arrOfIndex){
+			hemmingSignal[arrOfIndex[i]]=Signal[j]
+			j++
+		}
+		hemmingSignal[1]=chetOrNechet([7,5,3])
+		hemmingSignal[2]=chetOrNechet([7,6,3])
+		hemmingSignal[4]=chetOrNechet([7,6,5])
+}
+
+
+function errorsDetecting(){
+		//var indexes =[1,3,5,7]//[2,3,6,7][4,5,6,7]]
+		EofErr1[0]=chetOrNechet([1,3,5,7])
+		EofErr1[1]=chetOrNechet([2,3,6,7])
+		EofErr1[2]=chetOrNechet([4,5,6,7])
+		console.log(EofErr1)
+		//for (i=0;i<3;i++){
+				//EofErr1[i]=chetOrNechet(indexes)
+		//}
+				//console.log(chetOrNechet(indexes))
+			//EofErr.push(chetOrNechet(indexes))
+		//console.log(EofErr1[0])
+}
+
+function invert1(l){
+		if(hemmingSignal[l] == 1){
+				hemmingSignal[l]=0
+		}
+		else {hemmingSignal[l]=1}
+}
+
+
+
+
+
+
+var Signal=[1,1,1,0]
+//var mySignal=['m',0,0,0,1,1,1,1]
+var hemmingSignal=['m']
+var EofErr1=[]
+
+
+
+
+createHemmingSignal()
+//hemmingSignal[3]= - hemmingSignal[3]
+invert1(5)
+errorsDetecting()
+
+

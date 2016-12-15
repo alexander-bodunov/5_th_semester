@@ -1,0 +1,22 @@
+﻿goods = [
+    {'title': 'Ковер', 'price': 2000, 'color': 'green'},
+    {'title': 'Диван для отдыха', 'price': 5300, 'color': 'black'},
+    {'title': 'Стелаж', 'price': 7000, 'color': 'white'},
+    {'title': 'Вешалка для одежды', 'price': 800, 'color': 'white'}
+]
+
+def field(a,*args):
+    for i in a:
+        dictOneRecord={}
+        isField1=True
+        for j  in args:
+            if j in i:
+                dictOneRecord[j]=i[j]
+        if isField1:
+            yield dictOneRecord
+
+for i in field(goods, 'price'):
+    print(i)
+
+for i in field(goods,'title', 'price'):
+    print (i)
