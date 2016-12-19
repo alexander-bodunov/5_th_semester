@@ -1,0 +1,108 @@
+00h:
+BF 0->AC
+01h:
+A4 OUTn
+02h:
+08 T-1->T
+03h:
+B7 0->R0
+04h:
+C7 R0+1->R0
+05h:
+C7 R0+1->R0
+06h:
+C7 R0+1->R0
+07h:
+4E INn
+08h:
+07 T+1->T
+09h:
+6E AC-1->AC
+0Ah:
+61 AC->R7
+0Bh:
+4C ALA
+0Ch:
+25
+0Dh:
+50
+0Eh:
+A8 R0->AC
+0Fh:
+5B AC->R1
+10h:
+77 R0+AC->R0,AC
+11h:
+5C AC->R2
+12h:
+AF R7->AC
+13h:
+6E AC-1->AC
+14h:
+61 AC->R7
+15h:
+6E AC-1->AC
+16h:
+4C ALA
+17h:
+19
+18h:
+50
+19h:
+A9 R1->AC
+1Ah:
+5A AC->R0
+1Bh:
+AA R2->AC
+1Ch:
+77 R0+AC->R0,AC
+1Dh:
+5C AC->R2
+1Eh:
+AF R7->AC
+1Fh:
+6E AC-1->AC
+20h:
+61 AC->R7
+21h:
+6E AC-1->AC
+22h:
+4C ALA
+23h:
+19
+24h:
+50
+25h:
+6E AC-1->AC
+26h:
+4C ALA
+27h:
+0E
+28h:
+29
+29h:
+A8 R0->AC
+2Ah:
+5C AC->R2
+2Bh:
+0A GOTO
+2Ch:
+50
+...........
+50h:
+AA R2->AC
+51h:
+A4 OUTn
+52h:
+08 T-1->T
+53h:
+A0 END
+54h:
+00
+55h:
+B9 0->R2
+56h:
+00
+................
+FFh:
+03 PC->T

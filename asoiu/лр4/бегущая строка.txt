@@ -1,0 +1,197 @@
+﻿Бегущая строка индикаторов
+00h:
+BF 0->AC 
+01h:
+CF AC+1->AC 
+02h:
+A4 OUTn
+03h:
+08 T-1->T 
+04h:
+4C ALA
+05h:
+07 T+1->T
+06h:
+50
+07h:
+A4 OUTn
+08h:
+08 T-1->T
+09h:
+4C ALA
+0Ah:
+0C
+0Bh:
+50
+0Ch:
+A4 OUTn
+0Dh:
+08 T-1->T
+0Eh:
+4C ALA
+0Fh:
+11 T->MEM[T]
+10h:
+50
+11h:
+A4 OUTn
+12h:
+08 T-1->T
+13h:
+4C ALA
+14h:
+16 SRA1
+15h:
+50
+16h:
+A4 OUTn
+17h:
+08 T-1->T
+18h:
+4C ALA
+19h:
+1B
+1Ah:
+50
+1Bh:
+A4 OUTn
+1Ch:
+08 T-1->T
+1Dh:
+4C ALA
+1Eh:
+20 ALR0
+1Fh:
+50
+20h:
+A4 OUTn
+21h:
+08 T-1->T
+22h:
+4C ALA
+23h:
+25
+24h:
+50
+25h:
+A4 OUTn
+26h:
+08 T-1->T
+27h:
+4C ALA
+28h:
+2A
+29h:
+50
+2Ah:
+A4 OUTn
+2Bh:
+08 T-1->T
+2Ch:
+4C ALA
+2Dh:
+2F
+2Eh:
+50
+2Fh:
+A4 OUTn
+30h:
+08 T-1->T
+31h:
+A0 END
+.......
+50h:
+A4 OUTn
+51h:
+08 T-1->T
+52h:
+16 SRA1
+53h:
+55
+54h:
+A0 END
+55h:
+A4 OUTn
+56h:
+08 T-1->T
+57h:
+16 SRA1
+58h:
+5A AC->R0
+59h:
+A0 END
+5Ah:
+A4 OUTn
+5Bh:
+08 T-1->T
+5Ch:
+16 SRA1
+5Dh:
+5F AC->R5
+5Eh:
+A0 END
+5Fh:
+A4 OUTn
+60h:
+08 T-1->T
+61h:
+16 SRA1
+62h:
+64
+63h:
+A0 END
+64h:
+A4 OUTn
+65h:
+08 T-1->T
+66h:
+16 SRA1
+67h:
+69 R3-1->R3
+68h:
+A0 END
+69h:
+A4 OUTn
+6Ah:
+08 T-1->T
+6Bh:
+16 SRA1
+6Ch:
+6E AC-1->AC
+6Dh:
+A0 END
+6Eh:
+A4 OUTn
+6Fh:
+08 T-1->T
+70h:
+16 SRA1
+71h:
+73 FF->AC
+72h:
+A0 END
+73h:
+A4 OUTn
+74h:
+08 T-1->T
+75h:
+16 SRA1
+76h:
+78 R1+AC->R1,AC
+77h:
+A0 END
+78h:
+A4 OUTn
+79h:
+08 T-1->T
+7Ah:
+A0 END
+.................
+A0h:
+A4 OUTn
+A1h:
+08 T-1->T
+A2h:
+A0 END
+
+

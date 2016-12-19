@@ -1,0 +1,60 @@
+﻿00h:
+4E INn
+01h:
+07 T+1->T
+02h:
+4C ALA
+03h:
+05 AC->PC
+04h:
+0C
+05h:
+93 SRA0
+06h:
+08 T-1->T
+07h:
+08 T-1->T
+08h:
+A4 OUTn
+09h:
+08 T-1->T
+0Ah:
+A0 END
+0Bh:
+00
+0Ch:
+72 AC->~AC
+0Dh:
+16 SRA1
+0Eh:
+10 MEM[T]->T
+0Fh:
+10 MEM[T]->T
+10h:
+CF AC+1->AC
+11h:
+0A GOTO
+12h:
+20 ALR0
+13h:
+00
+..........
+20h:
+A4 OUTn
+21h:
+08 T-1->T
+22h:
+A0 END
+23h:
+00
+24h:
+00
+25h:
+BF 0->AC
+26h:
+A4 OUTn
+27h:
+08 T-1->T
+28h:
+A0 END
+
