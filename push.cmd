@@ -1,4 +1,4 @@
-cd c:\Users\work\desktop\stuf5sem
+cd c:\Users\work\desktop\stuff5sem
 git add --all
 git commit -m %1
 git push
