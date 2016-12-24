@@ -1,0 +1,385 @@
+<ru.bmstu.iu5.opsk.gef.model.NetworkElement serialization="custom">
+  <ru.bmstu.iu5.opsk.gef.model.ViewModel>
+    <default/>
+  </ru.bmstu.iu5.opsk.gef.model.ViewModel>
+  <ru.bmstu.iu5.opsk.gef.model.NetworkElement>
+    <default>
+      <uniqueNumber>9</uniqueNumber>
+      <model>
+        <packetLength>0</packetLength>
+        <maximumDeliveryTime>78.0</maximumDeliveryTime>
+        <nodeSpecificDelay>1.0</nodeSpecificDelay>
+        <channelSpecificCosts>12.0</channelSpecificCosts>
+        <channelSpecificDelay>45.0</channelSpecificDelay>
+        <nodes/>
+      </model>
+      <nodes class="vector">
+        <ru.bmstu.iu5.opsk.gef.model.NodeElement serialization="custom">
+          <ru.bmstu.iu5.opsk.gef.model.ViewModel>
+            <default/>
+          </ru.bmstu.iu5.opsk.gef.model.ViewModel>
+          <ru.bmstu.iu5.opsk.gef.model.NodeElement>
+            <default>
+              <isDestinationNode>false</isDestinationNode>
+              <isSourceNode>true</isSourceNode>
+              <dimension>
+                <width>50</width>
+                <height>50</height>
+              </dimension>
+              <location>
+                <x>92</x>
+                <y>81</y>
+              </location>
+              <model>
+                <id>1</id>
+                <inConnections/>
+                <outConnections/>
+              </model>
+              <sourceConnections>
+                <ru.bmstu.iu5.opsk.gef.model.ConnectionElement serialization="custom">
+                  <ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                    <default/>
+                  </ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                  <ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                    <default>
+                      <isConnected>true</isConnected>
+                      <isValid>true</isValid>
+                      <model>
+                        <througthput>0</througthput>
+                        <length>6</length>
+                        <intensivity>78.0</intensivity>
+                      </model>
+                      <source reference="../../../../../../.."/>
+                      <target serialization="custom">
+                        <ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                          <default/>
+                        </ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                        <ru.bmstu.iu5.opsk.gef.model.NodeElement>
+                          <default>
+                            <isDestinationNode>false</isDestinationNode>
+                            <isSourceNode>false</isSourceNode>
+                            <dimension>
+                              <width>50</width>
+                              <height>50</height>
+                            </dimension>
+                            <location>
+                              <x>555</x>
+                              <y>180</y>
+                            </location>
+                            <model>
+                              <id>3</id>
+                              <inConnections/>
+                              <outConnections/>
+                            </model>
+                            <sourceConnections>
+                              <ru.bmstu.iu5.opsk.gef.model.ConnectionElement serialization="custom">
+                                <ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                  <default/>
+                                </ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                <ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                  <default>
+                                    <isConnected>true</isConnected>
+                                    <isValid>true</isValid>
+                                    <model>
+                                      <througthput>0</througthput>
+                                      <length>1</length>
+                                      <intensivity>1.0</intensivity>
+                                    </model>
+                                    <source reference="../../../../../../.."/>
+                                    <target serialization="custom">
+                                      <ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                        <default/>
+                                      </ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                      <ru.bmstu.iu5.opsk.gef.model.NodeElement>
+                                        <default>
+                                          <isDestinationNode>false</isDestinationNode>
+                                          <isSourceNode>false</isSourceNode>
+                                          <dimension>
+                                            <width>50</width>
+                                            <height>50</height>
+                                          </dimension>
+                                          <location>
+                                            <x>287</x>
+                                            <y>523</y>
+                                          </location>
+                                          <model>
+                                            <id>5</id>
+                                            <inConnections/>
+                                            <outConnections/>
+                                          </model>
+                                          <sourceConnections>
+                                            <ru.bmstu.iu5.opsk.gef.model.ConnectionElement serialization="custom">
+                                              <ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                                <default/>
+                                              </ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                              <ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                                <default>
+                                                  <isConnected>true</isConnected>
+                                                  <isValid>true</isValid>
+                                                  <model>
+                                                    <througthput>0</througthput>
+                                                    <length>559</length>
+                                                    <intensivity>32767.0</intensivity>
+                                                  </model>
+                                                  <source reference="../../../../../../.."/>
+                                                  <target serialization="custom">
+                                                    <ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                                      <default/>
+                                                    </ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                                    <ru.bmstu.iu5.opsk.gef.model.NodeElement>
+                                                      <default>
+                                                        <isDestinationNode>true</isDestinationNode>
+                                                        <isSourceNode>false</isSourceNode>
+                                                        <dimension>
+                                                          <width>50</width>
+                                                          <height>50</height>
+                                                        </dimension>
+                                                        <location>
+                                                          <x>623</x>
+                                                          <y>561</y>
+                                                        </location>
+                                                        <model>
+                                                          <id>7</id>
+                                                          <inConnections/>
+                                                          <outConnections/>
+                                                        </model>
+                                                        <sourceConnections/>
+                                                        <targetConnections>
+                                                          <ru.bmstu.iu5.opsk.gef.model.ConnectionElement serialization="custom">
+                                                            <ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                                              <default/>
+                                                            </ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                                            <ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                                              <default>
+                                                                <isConnected>true</isConnected>
+                                                                <isValid>true</isValid>
+                                                                <model>
+                                                                  <througthput>0</througthput>
+                                                                  <length>1</length>
+                                                                  <intensivity>100.0</intensivity>
+                                                                </model>
+                                                                <source serialization="custom">
+                                                                  <ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                                                    <default/>
+                                                                  </ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                                                  <ru.bmstu.iu5.opsk.gef.model.NodeElement>
+                                                                    <default>
+                                                                      <isDestinationNode>false</isDestinationNode>
+                                                                      <isSourceNode>false</isSourceNode>
+                                                                      <dimension>
+                                                                        <width>50</width>
+                                                                        <height>50</height>
+                                                                      </dimension>
+                                                                      <location>
+                                                                        <x>604</x>
+                                                                        <y>323</y>
+                                                                      </location>
+                                                                      <model>
+                                                                        <id>6</id>
+                                                                        <inConnections/>
+                                                                        <outConnections/>
+                                                                      </model>
+                                                                      <sourceConnections>
+                                                                        <ru.bmstu.iu5.opsk.gef.model.ConnectionElement reference="../../../../../../.."/>
+                                                                      </sourceConnections>
+                                                                      <targetConnections>
+                                                                        <ru.bmstu.iu5.opsk.gef.model.ConnectionElement serialization="custom">
+                                                                          <ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                                                            <default/>
+                                                                          </ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                                                          <ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                                                            <default>
+                                                                              <isConnected>true</isConnected>
+                                                                              <isValid>true</isValid>
+                                                                              <model>
+                                                                                <througthput>0</througthput>
+                                                                                <length>1</length>
+                                                                                <intensivity>1.0</intensivity>
+                                                                              </model>
+                                                                              <source serialization="custom">
+                                                                                <ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                                                                  <default/>
+                                                                                </ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                                                                <ru.bmstu.iu5.opsk.gef.model.NodeElement>
+                                                                                  <default>
+                                                                                    <isDestinationNode>false</isDestinationNode>
+                                                                                    <isSourceNode>false</isSourceNode>
+                                                                                    <dimension>
+                                                                                      <width>50</width>
+                                                                                      <height>50</height>
+                                                                                    </dimension>
+                                                                                    <location>
+                                                                                      <x>84</x>
+                                                                                      <y>348</y>
+                                                                                    </location>
+                                                                                    <model>
+                                                                                      <id>4</id>
+                                                                                      <inConnections/>
+                                                                                      <outConnections/>
+                                                                                    </model>
+                                                                                    <sourceConnections>
+                                                                                      <ru.bmstu.iu5.opsk.gef.model.ConnectionElement reference="../../../../../../.."/>
+                                                                                    </sourceConnections>
+                                                                                    <targetConnections>
+                                                                                      <ru.bmstu.iu5.opsk.gef.model.ConnectionElement serialization="custom">
+                                                                                        <ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                                                                          <default/>
+                                                                                        </ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                                                                        <ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                                                                          <default>
+                                                                                            <isConnected>true</isConnected>
+                                                                                            <isValid>true</isValid>
+                                                                                            <model>
+                                                                                              <througthput>0</througthput>
+                                                                                              <length>67</length>
+                                                                                              <intensivity>9.0</intensivity>
+                                                                                            </model>
+                                                                                            <source reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../.."/>
+                                                                                            <target reference="../../../../../../.."/>
+                                                                                          </default>
+                                                                                        </ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                                                                      </ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                                                                    </targetConnections>
+                                                                                  </default>
+                                                                                </ru.bmstu.iu5.opsk.gef.model.NodeElement>
+                                                                              </source>
+                                                                              <target reference="../../../../../../.."/>
+                                                                            </default>
+                                                                          </ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                                                        </ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                                                        <ru.bmstu.iu5.opsk.gef.model.ConnectionElement serialization="custom">
+                                                                          <ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                                                            <default/>
+                                                                          </ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                                                          <ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                                                            <default>
+                                                                              <isConnected>true</isConnected>
+                                                                              <isValid>true</isValid>
+                                                                              <model>
+                                                                                <througthput>0</througthput>
+                                                                                <length>1</length>
+                                                                                <intensivity>66000.0</intensivity>
+                                                                              </model>
+                                                                              <source reference="../../../../../../../../../../../../../../../../../../../../.."/>
+                                                                              <target reference="../../../../../../.."/>
+                                                                            </default>
+                                                                          </ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                                                        </ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                                                      </targetConnections>
+                                                                    </default>
+                                                                  </ru.bmstu.iu5.opsk.gef.model.NodeElement>
+                                                                </source>
+                                                                <target reference="../../../../../../.."/>
+                                                              </default>
+                                                            </ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                                          </ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                                          <ru.bmstu.iu5.opsk.gef.model.ConnectionElement reference="../../../../../../.."/>
+                                                        </targetConnections>
+                                                      </default>
+                                                    </ru.bmstu.iu5.opsk.gef.model.NodeElement>
+                                                  </target>
+                                                </default>
+                                              </ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                            </ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                            <ru.bmstu.iu5.opsk.gef.model.ConnectionElement reference="../ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/target/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/targetConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/source/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/targetConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement[2]"/>
+                                          </sourceConnections>
+                                          <targetConnections>
+                                            <ru.bmstu.iu5.opsk.gef.model.ConnectionElement serialization="custom">
+                                              <ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                                <default/>
+                                              </ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                              <ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                                <default>
+                                                  <isConnected>true</isConnected>
+                                                  <isValid>true</isValid>
+                                                  <model>
+                                                    <througthput>0</througthput>
+                                                    <length>1</length>
+                                                    <intensivity>180.0</intensivity>
+                                                  </model>
+                                                  <source serialization="custom">
+                                                    <ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                                      <default/>
+                                                    </ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                                    <ru.bmstu.iu5.opsk.gef.model.NodeElement>
+                                                      <default>
+                                                        <isDestinationNode>false</isDestinationNode>
+                                                        <isSourceNode>false</isSourceNode>
+                                                        <dimension>
+                                                          <width>50</width>
+                                                          <height>50</height>
+                                                        </dimension>
+                                                        <location>
+                                                          <x>500</x>
+                                                          <y>51</y>
+                                                        </location>
+                                                        <model>
+                                                          <id>2</id>
+                                                          <inConnections/>
+                                                          <outConnections/>
+                                                        </model>
+                                                        <sourceConnections>
+                                                          <ru.bmstu.iu5.opsk.gef.model.ConnectionElement reference="../../../../../../.."/>
+                                                        </sourceConnections>
+                                                        <targetConnections>
+                                                          <ru.bmstu.iu5.opsk.gef.model.ConnectionElement serialization="custom">
+                                                            <ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                                              <default/>
+                                                            </ru.bmstu.iu5.opsk.gef.model.ViewModel>
+                                                            <ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                                              <default>
+                                                                <isConnected>true</isConnected>
+                                                                <isValid>true</isValid>
+                                                                <model>
+                                                                  <througthput>0</througthput>
+                                                                  <length>4321</length>
+                                                                  <intensivity>10000.0</intensivity>
+                                                                </model>
+                                                                <source reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../.."/>
+                                                                <target reference="../../../../../../.."/>
+                                                              </default>
+                                                            </ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                                          </ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                                        </targetConnections>
+                                                      </default>
+                                                    </ru.bmstu.iu5.opsk.gef.model.NodeElement>
+                                                  </source>
+                                                  <target reference="../../../../../../.."/>
+                                                </default>
+                                              </ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                            </ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                                            <ru.bmstu.iu5.opsk.gef.model.ConnectionElement reference="../../../../../../.."/>
+                                          </targetConnections>
+                                        </default>
+                                      </ru.bmstu.iu5.opsk.gef.model.NodeElement>
+                                    </target>
+                                  </default>
+                                </ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                              </ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                            </sourceConnections>
+                            <targetConnections>
+                              <ru.bmstu.iu5.opsk.gef.model.ConnectionElement reference="../../../../../../.."/>
+                            </targetConnections>
+                          </default>
+                        </ru.bmstu.iu5.opsk.gef.model.NodeElement>
+                      </target>
+                    </default>
+                  </ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                </ru.bmstu.iu5.opsk.gef.model.ConnectionElement>
+                <ru.bmstu.iu5.opsk.gef.model.ConnectionElement reference="../ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/target/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/sourceConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/target/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/sourceConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/target/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/targetConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/source/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/targetConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/source/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/targetConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement"/>
+                <ru.bmstu.iu5.opsk.gef.model.ConnectionElement reference="../ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/target/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/sourceConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/target/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/targetConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/source/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/targetConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement"/>
+              </sourceConnections>
+              <targetConnections/>
+            </default>
+          </ru.bmstu.iu5.opsk.gef.model.NodeElement>
+        </ru.bmstu.iu5.opsk.gef.model.NodeElement>
+        <ru.bmstu.iu5.opsk.gef.model.NodeElement reference="../ru.bmstu.iu5.opsk.gef.model.NodeElement/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/sourceConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/target/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/sourceConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/target/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/targetConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/source"/>
+        <ru.bmstu.iu5.opsk.gef.model.NodeElement reference="../ru.bmstu.iu5.opsk.gef.model.NodeElement/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/sourceConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/target"/>
+        <ru.bmstu.iu5.opsk.gef.model.NodeElement reference="../ru.bmstu.iu5.opsk.gef.model.NodeElement/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/sourceConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/target/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/sourceConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/target/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/sourceConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/target/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/targetConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/source/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/targetConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/source"/>
+        <ru.bmstu.iu5.opsk.gef.model.NodeElement reference="../ru.bmstu.iu5.opsk.gef.model.NodeElement/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/sourceConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/target/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/sourceConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/target"/>
+        <ru.bmstu.iu5.opsk.gef.model.NodeElement reference="../ru.bmstu.iu5.opsk.gef.model.NodeElement/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/sourceConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/target/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/sourceConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/target/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/sourceConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/target/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/targetConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/source"/>
+        <ru.bmstu.iu5.opsk.gef.model.NodeElement reference="../ru.bmstu.iu5.opsk.gef.model.NodeElement/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/sourceConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/target/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/sourceConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/target/ru.bmstu.iu5.opsk.gef.model.NodeElement/default/sourceConnections/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/ru.bmstu.iu5.opsk.gef.model.ConnectionElement/default/target"/>
+      </nodes>
+    </default>
+  </ru.bmstu.iu5.opsk.gef.model.NetworkElement>
+</ru.bmstu.iu5.opsk.gef.model.NetworkElement>

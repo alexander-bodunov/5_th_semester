@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Generated-from: 1115203018000;type=2
+Bundle-Name: %name
+Bundle-SymbolicName: org.eclipse.ui.forms
+Bundle-Version: 3.0.0
+Bundle-ClassPath: forms.jar
+Bundle-Vendor: %provider-name
+Bundle-Localization: plugin
+Provide-Package: org.eclipse.ui.internal.forms.widgets,
+ org.eclipse.ui.forms.editor,
+ org.eclipse.ui.forms.events,
+ org.eclipse.ui.internal.forms,
+ org.eclipse.ui.forms,
+ org.eclipse.ui.forms.widgets
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Eclipse-AutoStart: true

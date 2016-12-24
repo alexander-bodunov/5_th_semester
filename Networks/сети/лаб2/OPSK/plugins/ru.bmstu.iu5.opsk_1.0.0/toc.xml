@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+<toc label="ОПСК Помошь">
+	<topic label="Описание лабораторной работы"  href="html/lab.html"> 
+		<topic label="Цель лабораторной работы" href="html/aim.html"/>
+		<topic label="Порядок оформления" href="html/outlook.html"/>
+	</topic>
+	<topic label="Описание системы ОПСК"  href="html/opsk.html"> 
+					<topic label="Создание новой модели сети" href="html/manual.html#1"/>
+			<topic label="Сохранение модели сети" href="html/manual.html#2"/>
+			<topic label="Загрузка модели сети" href="html/manual.html#3"/>
+			<topic label="Экспорт отчёта" href="html/manual.html#4"/>
+			<topic label="Система помощи" href="html/manual.html#5"/>
+			<topic label="Други функции" href="html/manual.html#6"/>
+			</topic>
+</toc>

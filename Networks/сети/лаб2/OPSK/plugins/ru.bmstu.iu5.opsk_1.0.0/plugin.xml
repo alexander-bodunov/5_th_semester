@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin
+   id="ru.bmstu.iu5.opsk"
+   name="OPSK"
+   version="1.0.0"
+   provider-name="Egorova Olga"
+   class="ru.bmstu.iu5.opsk.rpc.RPCPlugin">
+
+   <runtime>
+      <library name="opsk-rpc.jar">
+         <export name="*"/>
+      </library>
+      <library name="lib/xstream-1.1.2.jar">
+         <export name="*"/>
+      </library>
+      <library name="lib/csv.jar">
+         <export name="*"/>
+      </library>
+   </runtime>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.help"/>
+      <import plugin="org.eclipse.ui.cheatsheets"/>
+      <import plugin="org.eclipse.gef"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.ui.views"/>
+   </requires>
+
+  <extension id="application" 
+     point="org.eclipse.core.runtime.applications"> 
+     <application> 
+            <run class="ru.bmstu.iu5.opsk.rpc.OPSKApplication"/> 
+     </application> 
+  </extension>  
+
+  <extension point="org.eclipse.ui.perspectives">
+     <perspective
+           class="ru.bmstu.iu5.opsk.perspective.ModelPerspective"
+           name="Model"
+           id="ru.bmstu.iu5.opsk.ModelPerspective"/> 
+  </extension>
+  
+  <extension
+        point="org.eclipse.core.runtime.products"
+        id = "product">
+     <product
+           name="%productName"
+           application="ru.bmstu.iu5.opsk.application">
+	          <property name="windowImages" value="icons/application.ico"/> 
+	          <property name="aboutImage" value="icons/about.gif"/> 
+	          <property name="aboutText" value="%productAbout"/> 
+			  <property name="appName" value="%appName"/>
+     </product>
+  </extension>
+  <extension
+        id="help"
+        name="Help content"
+        point="org.eclipse.help.toc">
+     <toc
+           primary="true"
+           file="toc.xml"/>
+  </extension>
+  <extension
+        point="org.eclipse.ui.cheatsheets.cheatSheetContent">
+     <category
+           name="%cheatsheed.category"
+           id="cheatsheet"/>
+     <cheatsheet
+           category="cheatsheet"
+           contentFile="cheatsheets/CreateNewModel.xml"
+           name="%cheatsheed.newmodel.name"
+           id="cheatsheet.newmodel">
+        <description>%cheatsheet.newmodel.description</description>
+     </cheatsheet>
+  </extension>
+  <extension
+        point="org.eclipse.ui.editors">
+     <editor
+           class="ru.bmstu.iu5.opsk.gef.NetworkEditor"
+           icon="icons/new_model.gif"
+           default="false"
+           contributorClass="ru.bmstu.iu5.opsk.gef.ActionContributor"
+           name="NetworkEditor"
+           id="networkEditor"/>
+  </extension>
+  <extension
+        point="org.eclipse.ui.views">
+     <view
+           icon="icons/node.gif"
+           class="ru.bmstu.iu5.opsk.views.ShortestPathView"
+           name="%shortest.path"
+           id="shortestPath"/>
+  </extension>
+
+</plugin>

@@ -1,0 +1,9 @@
+﻿Построение начато 06.12.2016 12:07:49.
+     1>Проект "F:\ДЗ_1\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.vcxproj" в узле 2 (целевые объекты Rebuild).
+       Файл проекта содержит ToolsVersion="14.0". Возможно, этот набор инструментов неизвестен или отсутствует (в этом случае проблему можно устранить, установив подходящую версию MSBuild), либо для данной сборки определено конкретное значение ToolsVersion в параметрах политики. Проект обрабатывается как имеющий ToolsVersion="4.0". Дополнительные сведения см. по ссылке http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets(44,5): error MSB8020: The builds tools for v140 (Platform Toolset = 'v140') cannot be found. To build using the v140 build tools, either click the Project menu or right-click the solution, and then select "Update VC++ Projects...". Install v140 to build using the v140 build tools.
+     1>Построение проекта "F:\ДЗ_1\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.vcxproj" завершено (целевые объекты Rebuild) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:00.07

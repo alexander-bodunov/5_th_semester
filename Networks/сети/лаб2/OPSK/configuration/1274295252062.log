@@ -1,0 +1,21 @@
+!SESSION май 19, 2010 22:54:12.312 ---------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -application opsk-rpc.jar
+
+!ENTRY org.eclipse.osgi май 19, 2010 22:54:12.312
+!MESSAGE Application error
+!STACK 1
+java.lang.RuntimeException: Application "opsk-rpc.jar" could not be found in the registry. The applications available are: org.eclipse.help.base.infocenterApplication, org.eclipse.help.base.helpApplication, org.eclipse.help.base.indexTool, org.eclipse.ui.ide.workbench, org.eclipse.update.core.standaloneUpdate, ru.bmstu.iu5.opsk.application.
+	at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:325)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:273)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:185)
+	at org.eclipse.core.launcher.Main.run(Main.java:704)
+	at org.eclipse.core.launcher.Main.main(Main.java:688)

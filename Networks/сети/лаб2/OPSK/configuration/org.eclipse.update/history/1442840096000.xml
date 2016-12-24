@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Created on Tue Sep 22 01:54:55 PETST 2015-->
+<config date="1442840095953" transient="false" version="3.0">
+<site enabled="true" policy="USER-EXCLUDE" updateable="true" url="platform:/base/">
+<feature id="org.eclipse.gef" url="features/org.eclipse.gef_3.0.1/" version="3.0.1"/>
+</site>
+</config>
