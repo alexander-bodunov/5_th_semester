@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    {% load static% }
+    <link rel="stylesheet" type="text/css" href="{% static 'css/aaa.css'%}">
+</head>
+<body>
+    page with variable
+    {{ my_variable }}
+    <ul>
+        {% for element in list %}
+             <li>{{ element }} </li>
+        {% empty %}
+            пустой список
+        {% endfor %}
+        {% for element in list %}
+             {% if element == '2' %}
+                    <li>Двойка</li>
+             {% elif element == '3' %}
+                    <li>Тройка</li>
+             {% else %}
+                    <li>{{ element }}</li>
+             {% endif %}
+        {% empty %}
+            пустой список
+        {% endfor %}
+    </ul>
+    <div>Общая часть</div>
+    <div>
+        {% block body %}Переопределяется в наследниках{% endblock %}
+    </div>
+    {% extend base.html %}
+    {% block title %}Заказы{% endblock %}
+    {% block body %}
+        <ul>
+            {% for order in orders %}
+                <li><a href="{% url 'orders.id' %}">{{ order.title }}</a></li>
+            {% empty %}
+                <li>Пустой список</li>
+            {% endfor %}
+        </ul>
+    {% endblock %}
+    {% extends 'base.html' %}
+    {% block title %}Заказ №{{ order.id }}{% endblock %}
+    {% block title %}Страница заказа №{{ order.id }}{% endblock %}
+</body>
+</html>

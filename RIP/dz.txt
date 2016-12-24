@@ -1,0 +1,114 @@
+﻿<a href="{% url 'worker_add' name %}">Добавить нового работника в отдел</a>
+
+
+url(r'^/0/0/0/(?P<department_id>.)$',views.add,name="add_url"),
+worker
+
+
+
+class AddWorkerView(TemplateView):
+    template_name='add_worker.html'
+    def get_context_data(self, **kwargs):
+        context=super(WorkerView, self).get_context_data(**kwargs)
+        context_worker=get_single_worker(context['worker_id'])
+        context_worker=context_worker[0]
+        context['department_id']= context_worker['name']
+        return context
+
+    def add(request):
+	department_id=self.get_context_data(self, **kwargs)['department_id']
+	redirect_url = '/'
+    	if request.method == 'POST':
+        	form = forms.FormAdd(request.POST)
+        	if form.is_valid():
+            		user = form.save(department_id)
+        return HttpResponseRedirect('/')
+    	else:
+        	form = forms.FormAdd()	
+
+
+def add(request):
+    redirect_url = '/'
+    if request.method == 'POST':
+        form = forms.FormAdd(request.POST)
+        if form.is_valid():
+            user = form.save()
+            return HttpResponseRedirect('/')
+    else:
+        form = forms.FormAdd()
+    return render(request, 'add.html', {'form': form,'continue': redirect_url})
+
+
+
+class FormAddWorker(forms.Form):
+    name=forms.CharField()
+    gift=forms.IntegerField()
+    def save(self,department_id):
+        worker = models.Department.objects.create(name=self.cleaned_data['name'],
+                                        gift=self.cleaned_data['leader'],
+                                        department=department_id
+                                        )
+        return worker
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dec
+
+' = '
+
+
+:
+
+
+
+
+in[int,str]
+
+
+
+
+def print_result(f):
+	def wraper():
+		result=f()
+		if type(result)=str:
+			f()
+		else:
+			try:
+				for i in result:
+					print(i)
+			except 
+				for key in result.keys():
+    					print(key, result[key])
+	return wraper
+			
+		NotIterableError
+if type(result)==int:
+	f()
+
+
+for key, value in result.items():
+    print(key, value)
+
+
+for key,value in result.items():
+	print (key,value)
+
+
+
