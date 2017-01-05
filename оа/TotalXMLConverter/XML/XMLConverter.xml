@@ -1,0 +1,82 @@
+<converters wizard="XMLConverter">
+  <convert name="PDF" value="PDF" image="PDF" />
+  <convert name="JSON" value="JSON" image="JSON" />
+  <convert name="CSV" value="CSV" image="CSV" />
+  <convert name="TEXT" value="TXT" image="TXT" />
+  <convert name="HTML" value="HTML" image="HTML" >
+    <alt value="HTM" />
+  </convert>
+  <convert name="XLSX" value="Excel" image="XLSX">
+    <alt value="xls" />
+    <alt value="xlsx" />
+  </convert>
+<!--  <convert name="DBF" value="DBF" image="DBF" /> -->
+  <convert name="SQL" value="SQL" image="SQL" />
+  <convert name="XML" value="XML" image="XML" />
+  <convert name="RTF" value="RTF" image="RTF" />
+  <convert name="DOC" value="DOC" image="DOC">
+  </convert>
+  <convert name="TIFF" value="TIFF" image="TIFF">
+    <alt value="TIF" />
+  </convert>
+  <convert name="JPEG" value="JPEG" image="JPEG">
+    <alt value="JPG" />
+  </convert>
+  <convert name="Image extract" value="ImageExtract" image="Image" />
+  <convert name="Access" value="Access" image="MDB">
+    <alt value="mdb" />
+    <alt value="accdb" />
+  </convert>
+  <convert name="DBF" value="DBF" image="DBF" />
+  </conver>
+<!--  <convert name="SQLite" value="SQLite" image="SQLite" /> -->
+</converters>
+<layout>
+  <browse name="ListBrowse" />
+  <info name="XMLInfo" align="right" sizeable="True" />
+</layout>
+<filter>
+  <item ext="xml;xmp;xaf" name="XML files" image="xml" />
+  <item ext="fo" name="Apache XML-FO files" image="apache" />
+  <item ext="json" name="JSON files" image="json" />
+</filter>
+<wizard caption="XML Converter" height="460">
+  <page class="SelectFile" caption="Destination" if="wizardShowFile=true" />
+  <page class="SelectFolder" caption="Destination" if="wizardShowFolder=true" />
+  <page class="SelectFolderCombine" caption="Destination" if="wizardShowFolderCombine=true" />
+  <page class="XMLFilters" caption="Filters" if="wizardShowFilters=true" />
+  <page class="XMLTransform" caption="Transform" if="wizardShowTransform=true" />
+  <page class="XMLConvertMethod" caption="Convert" if="wizardShowMethod=true" />
+  <page class="XMLReport" caption="Report" if="wizardShowReport=true" />
+  <page class="XMLImageConvertMethod" caption="Convert" if="wizardShowImageMethod=true" />
+  <page class="XMLCombineTables" caption="Combine" if="wizardShowXMLTableCombine=true" />
+  <page class="XMLTables" caption="Tables" if="wizardShowXMLTable=true" />
+  <page class="XMLCSV" caption="CSV options" if="ConvertType=xctCSV" />
+  <page class="XMLSQL" caption="SQL options" if="ConvertType=xctSQL" />
+  <page class="XMLTextFormat" caption="Format" if="wizardShowTextFormat=true" />
+  <page class="Header" caption="Header\Text" if="wizardShowComment=true" />
+  <page class="HeaderImage" caption="Header\Image" if="wizardShowComment=true" />
+  <page class="Footer" caption="Footer\Text" if="wizardShowComment=true" />
+  <page class="FooterImage" caption="Footer\Image" if="wizardShowComment=true" />
+  <include file="Paper" />
+  <include file="PDF" />
+  <page class="Finish" caption="Start conversion" />
+</wizard>
+<cmd>
+  <key name="xslt" property="XMLTransform.XSLT" desc="xslt file to apply transform" />
+  <key name="method" property="ConvertMethod" desc="xml convert method" >
+    <subkey name="table" value="xcmTable" desc="expand to table form" />
+    <subkey name="highlight" value="xcmHighlight" desc="highlight XML tree" />
+    <subkey name="report" value="xcmReport" desc="create report from XML data" />
+  </key>
+  <key name="report" property="cmdXMLReport" desc="Report file name" /> 
+  <key name="-plain" property="PlainTable" desc="Export document into one table" />
+  <key name="tables" property="XMLTable.SchemeFile" desc="Tables definition file" />
+  <key name="ids" property="XMLTable.IDsFile" desc="File with tables last ids (read/write)" />
+  <key name="comma" property="CSV.CmdComma" desc="CSV Export comma (you can use char codes, #39 for example)" />
+  <key name="separator" property="CSV.CmdSeparator" desc="CSV Export separator" />
+  <include file="PDFCmd" />
+  <include file="PaperCmd" />
+  <include file="CommentCmd" />
+</cmd>
+

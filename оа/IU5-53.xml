@@ -1,0 +1,913 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Students>
+ 
+ <Student>
+  <StudentID>301</StudentID>
+  <University>МГТУ им. Н.Э. Баумана</University>
+  <Faculty>ИУ</Faculty>
+  <SubFaculty>ИУ-5</SubFaculty>
+  <GroupeName>ИУ5-52</GroupeName>
+  <LastName>Чекулина</LastName>
+  <FirstName>Марина</FirstName>
+  <MiddleName>Юрьевна</MiddleName>
+  <BirthDate>1996-06-27</BirthDate>
+  <Gender>женский</Gender>
+  <State>Обучается</State>
+  <StartDate>2014-09-01</StartDate>
+  <Enrollment>Общий конкурс</Enrollment>
+  <Grant>Есть стипендии</Grant>
+  <Dormitory>Нет общежития</Dormitory>
+  <Address>Свободный проспект</Address>
+  <City>Moscow</City>
+  <Citizenship>Гражданин РФ</Citizenship>
+  <Country>Россия</Country>
+  <Phone>8-(915)-162-6780</Phone>
+</Student>
+<Student>
+
+<StudentID>307</StudentID>
+
+<University>МГТУ им. Н.Э. Баумана</University>
+
+<Faculty>ИУ</Faculty>
+
+<SubFaculty>ИУ-5</SubFaculty>
+
+<GroupeName>ИУ5-53</GroupeName>
+
+<LastName>Коновалов</LastName>
+
+<FirstName>Богдан</FirstName>
+
+<MiddleName>Дмитриевич</MiddleName>
+
+<BirthDate>1995-06-24</BirthDate>
+
+<Gender>Мужской</Gender>
+
+<State>Обучается</State>
+
+<StartDate>2013-09-01</StartDate>
+
+<Enrollment>Общий конкурс</Enrollment>
+
+<Grant>Есть стипендия</Grant>
+
+<Dormitory>Нет общежития</Dormitory>
+
+<Address>город Москва</Address>
+
+<City>Moscow</City>
+
+<Citizenship>Гражданин РФ</Citizenship>
+
+<Country>Россия</Country>
+
+<Phone>8(916) 0753110</Phone>
+
+</Student>
+
+	<Student>
+
+	<StudentID>311</StudentID>
+
+	<University>МГТУ им. Н.Э. Баумана</University>
+
+	<Faculty>ИУ</Faculty>
+
+	<SubFaculty>ИУ-5</SubFaculty>
+
+	<GroupeName>ИУ5-53</GroupeName>
+
+	<LastName>Пивкин</LastName>
+
+	<FirstName>Павел</FirstName>
+
+	<MiddleName>Петрович</MiddleName>
+
+	<BirthDate>1995-06-07</BirthDate>
+
+	<Gender>Мужской</Gender>
+
+	<State>Обучается</State>
+
+	<StartDate>2013-09-01</StartDate>
+
+	<Enrollment>Общий конкурс</Enrollment>
+
+	<Grant>Нет стипендии</Grant>
+
+	<Dormitory>Нет общежития</Dormitory>
+
+	<Address>ул.Ленина д.4 кв.14</Address>
+
+	<City>г.Санкт-Петербург</City>
+
+	<Citizenship>Гражданин РФ</Citizenship>
+
+	<Country>Россия</Country>
+
+	<Phone>8(916)800 - 2020</Phone>
+
+	</Student>
+	
+	<Student>
+
+<StudentID>312</StudentID>
+
+<University>МГТУ им. Н.Э. Баумана</University>
+
+<Faculty>ИУ</Faculty>
+
+<SubFaculty>ИУ-5</SubFaculty>
+
+<GroupeName>ИУ5-53</GroupeName>
+
+<LastName>Попенков</LastName>
+
+<FirstName>Владимир</FirstName>
+
+<MiddleName>Борисович</MiddleName>
+
+<BirthDate>1996-01-11</BirthDate>
+
+<Gender>Мужской</Gender>
+
+<State>Обучается</State>
+
+<StartDate>2013-09-01</StartDate>
+
+<Enrollment>Общий конкурс</Enrollment>
+
+<Grant>Нет стипендии</Grant>
+
+<Dormitory>Нет общежития</Dormitory>
+
+<Address>город Москва</Address>
+
+<City>Москва</City>
+
+<Citizenship>Гражданин РФ</Citizenship>
+
+<Country>Россия</Country>
+
+<Phone>8(903) 7652643</Phone>
+
+</Student>
+
+<Student>
+
+<StudentID>313</StudentID>
+
+<University>МГТУ им. Н.Э. Баумана</University>
+
+<Faculty>ИУ</Faculty>
+
+<SubFaculty>ИУ-5</SubFaculty>
+
+<GroupeName>ИУ5-53</GroupeName>
+
+<LastName>Семенченко</LastName>
+
+<FirstName>Иван</FirstName>
+
+<MiddleName>Игоревич</MiddleName>
+
+<BirthDate>1995-11-17</BirthDate>
+
+<Gender>Мужской</Gender>
+
+<State>Обучается</State>
+
+<StartDate>2013-09-01</StartDate>
+
+<Enrollment>Общий конкурс</Enrollment>
+
+<Grant>Есть стипендия</Grant>
+
+<Dormitory>Нет общежития</Dormitory>
+
+<Address>город Москва</Address>
+
+<City>Moscow</City>
+
+<Citizenship>Гражданин РФ</Citizenship>
+
+<Country>Россия</Country>
+
+<Phone>8(916) 0713610</Phone>
+
+</Student>
+
+
+<Student>
+
+<StudentID>314</StudentID>
+
+<University>МГТУ им. Н.Э. Баумана</University>
+
+<Faculty>ИУ</Faculty>
+
+<SubFaculty>ИУ-5</SubFaculty>
+
+<GroupeName>ИУ5-53</GroupeName>
+
+<LastName>Сергеев</LastName>
+
+<FirstName>Илья</FirstName>
+
+<MiddleName>Леонидович</MiddleName>
+
+<BirthDate>1995-12-28</BirthDate>
+
+<Gender>Мужской</Gender>
+
+<State>Обучается</State>
+
+<StartDate>2013-09-01</StartDate>
+
+<Enrollment>Общий конкурс</Enrollment>
+
+<Grant>Есть стипендия</Grant>
+
+<Dormitory>Нет общежития</Dormitory>
+
+<Address>Октябрьский Пр-т,д.12, кв.75</Address>
+
+<City>Люберцы</City>
+
+<Citizenship>Гражданин РФ</Citizenship>
+
+<Country>Россия</Country>
+
+<Phone>8(903) 5834300</Phone>
+
+</Student>
+
+<Student>
+
+<StudentID>319</StudentID>
+
+<University>МГТУ им. Н.Э. Баумана</University>
+
+<Faculty>ИУ</Faculty>
+
+<SubFaculty>ИУ-5</SubFaculty>
+
+<GroupeName>ИУ5-53</GroupeName>
+
+<LastName>Туров</LastName>
+
+<FirstName>Роман</FirstName>
+
+<MiddleName>Владиславович</MiddleName>
+
+<BirthDate>1995-09-06</BirthDate>
+
+<Gender>Мужской</Gender>
+
+<State>Обучается</State>
+
+<StartDate>2013-09-01</StartDate>
+
+<Enrollment>Общий конкурс</Enrollment>
+
+<Grant>Стипендия</Grant>
+
+<Dormitory>Нет общежития</Dormitory>
+
+<Address>Московская область, Раменский район</Address>
+
+<City>Речицы</City>
+
+<Citizenship>Гражданин РФ</Citizenship>
+
+<Country>Россия</Country>
+
+<Phone>8(916)0957881</Phone>
+
+</Student>
+
+
+<Student>
+
+<StudentID>323</StudentID>
+
+<University>МГТУ им. Н.Э. Баумана</University>
+
+<Faculty>ИУ</Faculty>
+
+<SubFaculty>ИУ-5</SubFaculty>
+
+<GroupeName>ИУ5-53</GroupeName>
+
+<LastName>Яйлоян</LastName>
+
+<FirstName>Михаил</FirstName>
+
+<MiddleName>Робертович</MiddleName>
+
+<BirthDate>1995-12-20</BirthDate>
+
+<Gender>Мужской</Gender>
+
+<State>Обучается</State>
+
+<StartDate>2013-09-01</StartDate>
+
+<Enrollment>Шаг в будущее</Enrollment>
+
+<Grant>Есть стипендия</Grant>
+
+<Dormitory>Нет общежития</Dormitory>
+
+<Address>Москва</Address>
+
+<City>Москва</City>
+
+<Citizenship>Гражданин РФ</Citizenship>
+
+<Country>Россия</Country>
+
+<Phone>8(916)0713610</Phone>
+
+</Student>
+
+ <Student>
+  <StudentID>304</StudentID>
+  <University>МГТУ им. Н.Э. Баумана</University>
+  <Faculty>ИУ</Faculty>
+  <SubFaculty>ИУ-5</SubFaculty>
+  <GroupeName>ИУ-53</GroupeName>
+  <LastName>Егоров</LastName>
+  <FirstName>Анатолий</FirstName>
+  <MiddleName>Евгеньевич</MiddleName>
+  <BirthDate>1991-10-16</BirthDate>
+  <Gender>Мужской</Gender>
+  <State>Обучается</State>
+  <StartDate> 2013-09-01</StartDate>
+  <Enrollment>Общий конкурс</Enrollment>
+  <Grant>Стипендия</Grant>
+  <Dormitory>Нет</Dormitory>
+  <Address>ул.3-я Гражданская,д.3а</Address>
+  <City>Moscow</City>
+  <Citizenship>Гражданин РФ</Citizenship>
+  <Country>Россия</Country>
+  <Phone>8-(909)964-8999</Phone>
+ </Student>
+ 
+ <Student>
+  <StudentID>317</StudentID>
+  <University>МГТУ им. Н.Э. Баумана</University>
+  <Faculty>ИУ</Faculty>
+  <SubFaculty>ИУ-5</SubFaculty>
+  <GroupeName>ИУ5-53</GroupeName>
+  <LastName>Стародубцев</LastName>
+  <FirstName>Александр</FirstName>
+  <MiddleName>Витальевич</MiddleName>
+  <BirthDate>1996-02-05</BirthDate>
+  <Gender>Мужской</Gender>
+  <State>Обучается</State>
+  <StartDate> 2013-09-01</StartDate>
+  <Enrollment>Шаг в будущее</Enrollment>
+  <Grant>Стипендия</Grant>
+  <Dormitory>Нет</Dormitory>
+  <Address>Пятницкое шоссе</Address>
+  <City>Москва</City>
+  <Citizenship>Гражданин РФ</Citizenship>
+  <Country>Россия</Country>
+  <Phone>(8-903) 123-4567</Phone>
+ </Student>
+ 
+ <Student>
+
+<StudentID>320</StudentID>
+
+<University>МГТУ им. Баумана</University>
+
+<Faculty>ИУ</Faculty>
+
+<SubFaculty>ИУ-5</SubFaculty>
+
+<GroupeName>ИУ5-53</GroupeName>
+
+<LastName>Черемисин</LastName>
+
+<FirstName>Сергей</FirstName>
+
+<MiddleName>Вячеславович</MiddleName>
+
+<BirthDate>1996-04-10</BirthDate>
+
+<Gender>Мужской</Gender>
+
+<State>Îáó÷à</State>
+
+<StartDate>2013-09-01</StartDate>
+
+<Enrollment>Москва</Enrollment>
+
+<Grant>Бюджет</Grant>
+
+<Dormitory>Дома</Dormitory>
+
+<Address>Байкальская, дом 34, кв 124</Address>
+
+<City>Moscow</City>
+
+<Citizenship>Российская Федерация</Citizenship>
+
+<Country>Россия</Country>
+
+<Phone>8(916) 4001538</Phone>
+
+</Student>
+
+<Student>
+
+<StudentID>315</StudentID>
+
+<University>МГТУ им. Н.Э. Баумана</University>
+
+<Faculty>ИУ</Faculty>
+
+<SubFaculty>ИУ-5</SubFaculty>
+
+<GroupeName>ИУ5-53</GroupeName>
+
+<LastName>Скриба</LastName>
+
+<FirstName>Артемий</FirstName>
+
+<MiddleName>Витальевич</MiddleName>
+
+<BirthDate>1994-12-08</BirthDate>
+
+<Gender>Мужской</Gender>
+
+<State>Обучается</State>
+
+<StartDate>2013-09-01</StartDate>
+
+<Enrollment>Целевой набор</Enrollment>
+
+<Grant>Нет стипендии</Grant>
+
+<Dormitory>Нет общежития</Dormitory>
+
+<Address>город Москва</Address>
+
+<City>Moscow</City>
+
+<Citizenship>Гражданин РФ</Citizenship>
+
+<Country>Россия</Country>
+
+<Phone>8(906) 0624523</Phone>
+
+</Student>
+
+<Student>
+
+<StudentID>305</StudentID>
+
+<University>МГТУ им. Н.Э. Баумана</University>
+
+<Faculty>ИУ</Faculty>
+
+<SubFaculty>ИУ-5</SubFaculty>
+
+<GroupeName>ИУ5-53</GroupeName>
+
+<LastName>Канделаки</LastName>
+
+<FirstName>Дмитрий</FirstName>
+
+<MiddleName>Юрьевич</MiddleName>
+
+<BirthDate>1992-04-09</BirthDate>
+
+<Gender>Мужской</Gender>
+
+<State>Обучается</State>
+
+<StartDate>2011-09-01</StartDate>
+
+<Enrollment>Общий конкурс</Enrollment>
+
+<Grant>Государственная академическая стипендия</Grant>
+
+<Dormitory>Нет общежития</Dormitory>
+
+<Address>город Москва</Address>
+
+<City>Москва</City>
+
+<Citizenship>Гражданин РФ</Citizenship>
+
+<Country>Россия</Country>
+
+<Phone>8(964) 6334870</Phone>
+
+</Student>
+
+<Student>
+  <StudentID>306</StudentID>
+  <University>МГТУ им. Н.Э. Баумана</University>
+  <Faculty>ИУ</Faculty>
+  <SubFaculty>ИУ-5</SubFaculty>
+  <GroupeName>ИУ5-53</GroupeName>
+  <LastName>Касикин</LastName>
+  <FirstName>Алексей</FirstName>
+  <MiddleName>Андреевич</MiddleName>
+  <BirthDate>1995-06-29</BirthDate>
+  <Gender>Мужской</Gender>
+  <State>Обучается</State>
+  <StartDate>2013-09-01</StartDate>
+  <Enrollment>Общий конкурс</Enrollment>
+  <Grant>с стипендией</Grant>
+  <Dormitory>Дом</Dormitory>
+  <Address>2-я Бауманская дом 5</Address>
+  <City>Moscow</City>
+  <Citizenship>Гражданин РФ</Citizenship>
+  <Country>Россия</Country>
+  <Phone>8(985) 301-5993</Phone>
+ </Student>
+ 
+ <Student>
+
+<StudentID>308</StudentID>
+
+<University>МГТУ им. Н.Э. Баумана</University>
+
+<Faculty>ИУ</Faculty>
+
+<SubFaculty>ИУ-5</SubFaculty>
+
+<GroupeName>ИУ5-53</GroupeName>
+
+<LastName>Красильников</LastName>
+
+<FirstName>Сергей</FirstName>
+
+<MiddleName>Николаевич</MiddleName>
+
+<BirthDate>1994-11-23</BirthDate>
+
+<Gender>Мужской</Gender>
+
+<State>Обучается</State>
+
+<StartDate>2013-09-01</StartDate>
+
+<Enrollment>Общий конкурс</Enrollment>
+
+<Grant>Стипендия</Grant>
+
+<Dormitory>Нет общежития</Dormitory>
+
+<Address>Москва</Address>
+
+<City>Москва</City>
+
+<Citizenship>Гражданин РФ</Citizenship>
+
+<Country>Россия</Country>
+
+<Phone>8(916)1112344</Phone>
+
+</Student>
+
+<Student>
+
+<StudentID>310</StudentID>
+
+<University>МГТУ им. Н.Э. Баумана</University>
+
+<Faculty>ИУ</Faculty>
+
+<SubFaculty>ИУ-5</SubFaculty>
+
+<GroupeName>ИУ5-53</GroupeName>
+
+<LastName>Милехин</LastName>
+
+<FirstName>Кирилл</FirstName>
+
+<MiddleName>Александрович</MiddleName>
+
+<BirthDate>1995-12-13</BirthDate>
+
+<Gender>Мужской</Gender>
+
+<State>Обучается</State>
+
+<StartDate>2013-09-01</StartDate>
+
+<Enrollment>Общий конкурс</Enrollment>
+
+<Grant>Нет стипендии</Grant>
+
+<Dormitory>Нет общежития</Dormitory>
+
+<Address>город Москва</Address>
+
+<City>Moscow</City>
+
+<Citizenship>Гражданин РФ</Citizenship>
+
+<Country>Россия</Country>
+
+<Phone>8(985) 3655695</Phone>
+
+</Student>
+
+<Student>
+
+<StudentID>316</StudentID>
+
+<University>МГТУ им. Н.Э. Баумана</University>
+
+<Faculty>ИУ</Faculty>
+
+<SubFaculty>ИУ-5</SubFaculty>
+
+<GroupeName>ИУ5-53</GroupeName>
+
+<LastName>Смирнова</LastName>
+
+<FirstName>Евгения</FirstName>
+
+<MiddleName>Витальевна</MiddleName>
+
+<BirthDate>1995-08-15</BirthDate>
+
+<Gender>Женский</Gender>
+
+<State>Обучается</State>
+
+<StartDate>2013-09-01</StartDate>
+
+<Enrollment>Общий конкурс</Enrollment>
+
+<Grant>Нет стипендии</Grant>
+
+<Dormitory>Нет общежития</Dormitory>
+
+<Address>город Москва</Address>
+
+<City>Moscow</City>
+
+<Citizenship>Гражданин РФ</Citizenship>
+
+<Country>Россия</Country>
+
+<Phone>8(926)5167266</Phone>
+
+</Student>
+
+<Student>
+
+<StudentID>318</StudentID>
+
+<University>МГТУ им. Н.Э. Баумана</University>
+
+<Faculty>ИУ</Faculty>
+
+<SubFaculty>ИУ-5</SubFaculty>
+
+<GroupeName>ИУ5-53</GroupeName>
+
+<LastName>Тертица</LastName>
+
+<FirstName>Павел</FirstName>
+
+<MiddleName>Андреевич</MiddleName>
+
+<BirthDate>1995-12-02</BirthDate>
+
+<Gender>Мужской</Gender>
+
+<State>Обучается</State>
+
+<StartDate>2013-09-01</StartDate>
+
+<Enrollment>Общий конкурс</Enrollment>
+
+<Grant>Нет стипендии</Grant>
+
+<Dormitory>Нет общежития</Dormitory>
+
+<Address>город Москва</Address>
+
+<City>Moscow</City>
+
+<Citizenship>Гражданин РФ</Citizenship>
+
+<Country>Россия</Country>
+
+<Phone>8(903) 0713610</Phone>
+
+</Student>
+
+<Student>
+  <StudentID>302</StudentID>
+  <University>МГТУ им. Н.Э. Баумана</University>
+  <Faculty>ИУ</Faculty>
+  <SubFaculty>ИУ-5</SubFaculty>
+  <GroupeName>ИУ5-53</GroupeName>
+  <LastName>Васильев</LastName>
+  <FirstName>Василий</FirstName>
+  <MiddleName>Валерьевич</MiddleName>
+  <BirthDate>1996-08-17</BirthDate>
+  <Gender>Мужской</Gender>
+  <State>Обучается</State>
+  <StartDate>2013-09-01</StartDate>
+  <Enrollment>Общий конкурс</Enrollment>
+  <Grant>с стипендией</Grant>
+  <Dormitory>Дом</Dormitory>
+  <Address>2-я Бауманская дом 5</Address>
+  <City>Moscow</City>
+  <Citizenship>Гражданин РФ</Citizenship>
+  <Country>Россия</Country>
+  <Phone>8(925) 453-3908</Phone>
+ </Student>
+ 
+ <Student>
+
+<StudentID>303</StudentID>
+
+<University>МГТУ им. Н.Э. Баумана</University>
+
+<Faculty>ИУ</Faculty>
+
+<SubFaculty>ИУ-5</SubFaculty>
+
+<GroupeName>ИУ5-53</GroupeName>
+
+<LastName>Гилязетдинов</LastName>
+
+<FirstName>Евгений</FirstName>
+
+<MiddleName>Витальевич</MiddleName>
+
+<BirthDate>1995-03-02</BirthDate>
+
+<Gender>Мужской</Gender>
+
+<State>Обучается</State>
+
+<StartDate>2013-09-01</StartDate>
+
+<Enrollment>Общий конкурс</Enrollment>
+
+<Grant>Нет стипендии</Grant>
+
+<Dormitory>Нет общежития</Dormitory>
+
+<Address>город Москва</Address>
+
+<City>Moscow</City>
+
+<Citizenship>Гражданин РФ</Citizenship>
+
+<Country>Россия</Country>
+
+<Phone>8(926) 9666492</Phone>
+
+</Student>
+
+<Student>
+
+<StudentID>309</StudentID>
+
+<University>МГТУ им. Н.Э. Баумана</University>
+
+<Faculty>ИУ</Faculty>
+
+<SubFaculty>ИУ-5</SubFaculty>
+
+<GroupeName>ИУ5-53</GroupeName>
+
+<LastName>Максимова</LastName>
+
+<FirstName>Екатерина</FirstName>
+
+<MiddleName>Васильевна</MiddleName>
+
+<BirthDate>1995-05-17</BirthDate>
+
+<Gender>Женский</Gender>
+
+<State>Обучается</State>
+
+<StartDate>2013-09-01</StartDate>
+
+<Enrollment>Общий конкурс</Enrollment>
+
+<Grant>Стипендия</Grant>
+
+<Dormitory>Нет общежития</Dormitory>
+
+<Address>Москва</Address>
+
+<City>Москва</City>
+
+<Citizenship>Гражданин РФ</Citizenship>
+
+<Country>Россия</Country>
+
+<Phone>8(916)1862344</Phone>
+
+</Student>
+
+<Student>
+
+<StudentID>321</StudentID>
+
+<University>МГТУ им. Н.Э. Баумана</University>
+
+<Faculty>ИУ</Faculty>
+
+<SubFaculty>ИУ-5</SubFaculty>
+
+<GroupeName>ИУ5-53</GroupeName>
+
+<LastName>Чихирева</LastName>
+
+<FirstName>Юлия</FirstName>
+
+<MiddleName>Александровна</MiddleName>
+
+<BirthDate>1995-10-23</BirthDate>
+
+<Gender>Женский</Gender>
+
+<State>Обучается</State>
+
+<StartDate>2013-09-01</StartDate>
+
+<Enrollment>Общий конкурс</Enrollment>
+
+<Grant>Стипендия</Grant>
+
+<Dormitory>Есть общежитие</Dormitory>
+
+<Address>Москва</Address>
+
+<City>Москва</City>
+
+<Citizenship>Гражданин РФ</Citizenship>
+
+<Country>Россия</Country>
+
+<Phone>8(916)1358344</Phone>
+
+</Student>
+
+<Student>
+
+<StudentID>322</StudentID>
+
+<University>МГТУ им. Н.Э. Баумана</University>
+
+<Faculty>ИУ</Faculty>
+
+<SubFaculty>ИУ-5</SubFaculty>
+
+<GroupeName>ИУ5-53</GroupeName>
+
+<LastName>Шишкин</LastName>
+
+<FirstName>Егор</FirstName>
+
+<MiddleName>Андреевич</MiddleName>
+
+<BirthDate>1996-11-07</BirthDate>
+
+<Gender>Мужской</Gender>
+
+<State>Обучается</State>
+
+<StartDate>2013-09-01</StartDate>
+
+<Enrollment>Общий конкурс</Enrollment>
+
+<Grant>Стипендия</Grant>
+
+<Dormitory>Нет общежития</Dormitory>
+
+<Address>проспект Космонавтов, дом 45</Address>
+
+<City>Королёв</City>
+
+<Citizenship>Гражданин РФ</Citizenship>
+
+<Country>Россия</Country>
+
+<Phone>8(985)9758909</Phone>
+
+</Student>
+ 
+ 
+</Students>

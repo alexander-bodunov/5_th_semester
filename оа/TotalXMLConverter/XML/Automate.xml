@@ -1,0 +1,4 @@
+<wizard caption="Automate">
+  <page class="AutomateFolder" caption="Automate" />
+  <page class="ConvertType" caption="Convert to" />
+</wizard>
